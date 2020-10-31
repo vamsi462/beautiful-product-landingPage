@@ -114,6 +114,17 @@ header ul li a {
 }
 
 .thumb li{
-    list-style: none;   
+    list-style: none;  
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5%;  
 
+}
+
+.thumb li:hover{
+    transform: translateY(-15px );
+}
+.thumb li img{
+    max-width: 40px;
 }
